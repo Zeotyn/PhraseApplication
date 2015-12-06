@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E134581C11E39800CDB9E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E134571C11E39800CDB9E2 /* AppDelegate.swift */; };
+		B3E1345B1C11E39800CDB9E2 /* PhraseApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3E134591C11E39800CDB9E2 /* PhraseApplication.xcdatamodeld */; };
+		B3E1345D1C11E39800CDB9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E1345C1C11E39800CDB9E2 /* Assets.xcassets */; };
+		B3E134601C11E39800CDB9E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E1345E1C11E39800CDB9E2 /* MainMenu.xib */; };
+		B3E134731C11E47800CDB9E2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E1346F1C11E47800CDB9E2 /* MainViewController.swift */; };
+		B3E134741C11E47800CDB9E2 /* ProjectSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E134701C11E47800CDB9E2 /* ProjectSettingsViewController.swift */; };
+		B3E134751C11E47800CDB9E2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E134711C11E47800CDB9E2 /* MainViewController.xib */; };
+		B3E134761C11E47800CDB9E2 /* ProjectSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3E134721C11E47800CDB9E2 /* ProjectSettingsViewController.xib */; };
+		B3E134781C11E49400CDB9E2 /* MainViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E134771C11E49400CDB9E2 /* MainViewControllerExtensions.swift */; };
+		B3E1347B1C11E4EF00CDB9E2 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E1347A1C11E4EF00CDB9E2 /* Project.swift */; };
+		B3E1347E1C11E54400CDB9E2 /* CLIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E1347D1C11E54400CDB9E2 /* CLIService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3E134541C11E39800CDB9E2 /* PhraseApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhraseApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E134571C11E39800CDB9E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3E1345A1C11E39800CDB9E2 /* PhraseApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhraseApplication.xcdatamodel; sourceTree = "<group>"; };
+		B3E1345C1C11E39800CDB9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3E1345F1C11E39800CDB9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B3E134611C11E39800CDB9E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E1346F1C11E47800CDB9E2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B3E134701C11E47800CDB9E2 /* ProjectSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectSettingsViewController.swift; sourceTree = "<group>"; };
+		B3E134711C11E47800CDB9E2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B3E134721C11E47800CDB9E2 /* ProjectSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectSettingsViewController.xib; sourceTree = "<group>"; };
+		B3E134771C11E49400CDB9E2 /* MainViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerExtensions.swift; sourceTree = "<group>"; };
+		B3E1347A1C11E4EF00CDB9E2 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B3E1347D1C11E54400CDB9E2 /* CLIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLIService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3E134511C11E39800CDB9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3E1344B1C11E39800CDB9E2 = {
+			isa = PBXGroup;
+			children = (
+				B3E134561C11E39800CDB9E2 /* PhraseApplication */,
+				B3E134551C11E39800CDB9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3E134551C11E39800CDB9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3E134541C11E39800CDB9E2 /* PhraseApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3E134561C11E39800CDB9E2 /* PhraseApplication */ = {
+			isa = PBXGroup;
+			children = (
+				B3E1347C1C11E51E00CDB9E2 /* Service */,
+				B3E134791C11E4D100CDB9E2 /* Model */,
+				B3E1346D1C11E43400CDB9E2 /* ViewController */,
+				B3E134571C11E39800CDB9E2 /* AppDelegate.swift */,
+				B3E1345C1C11E39800CDB9E2 /* Assets.xcassets */,
+				B3E1345E1C11E39800CDB9E2 /* MainMenu.xib */,
+				B3E134611C11E39800CDB9E2 /* Info.plist */,
+				B3E134591C11E39800CDB9E2 /* PhraseApplication.xcdatamodeld */,
+			);
+			path = PhraseApplication;
+			sourceTree = "<group>";
+		};
+		B3E1346D1C11E43400CDB9E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3E1346F1C11E47800CDB9E2 /* MainViewController.swift */,
+				B3E134701C11E47800CDB9E2 /* ProjectSettingsViewController.swift */,
+				B3E134711C11E47800CDB9E2 /* MainViewController.xib */,
+				B3E134721C11E47800CDB9E2 /* ProjectSettingsViewController.xib */,
+				B3E1346E1C11E44800CDB9E2 /* Extensions */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B3E1346E1C11E44800CDB9E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B3E134771C11E49400CDB9E2 /* MainViewControllerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B3E134791C11E4D100CDB9E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3E1347A1C11E4EF00CDB9E2 /* Project.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B3E1347C1C11E51E00CDB9E2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B3E1347D1C11E54400CDB9E2 /* CLIService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3E134531C11E39800CDB9E2 /* PhraseApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E134641C11E39800CDB9E2 /* Build configuration list for PBXNativeTarget "PhraseApplication" */;
+			buildPhases = (
+				B3E134501C11E39800CDB9E2 /* Sources */,
+				B3E134511C11E39800CDB9E2 /* Frameworks */,
+				B3E134521C11E39800CDB9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhraseApplication;
+			productName = PhraseApplication;
+			productReference = B3E134541C11E39800CDB9E2 /* PhraseApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3E1344C1C11E39800CDB9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dynport GmbH";
+				TargetAttributes = {
+					B3E134531C11E39800CDB9E2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = B3E1344F1C11E39800CDB9E2 /* Build configuration list for PBXProject "PhraseApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3E1344B1C11E39800CDB9E2;
+			productRefGroup = B3E134551C11E39800CDB9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3E134531C11E39800CDB9E2 /* PhraseApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3E134521C11E39800CDB9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E1345D1C11E39800CDB9E2 /* Assets.xcassets in Resources */,
+				B3E134751C11E47800CDB9E2 /* MainViewController.xib in Resources */,
+				B3E134601C11E39800CDB9E2 /* MainMenu.xib in Resources */,
+				B3E134761C11E47800CDB9E2 /* ProjectSettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3E134501C11E39800CDB9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E134731C11E47800CDB9E2 /* MainViewController.swift in Sources */,
+				B3E134741C11E47800CDB9E2 /* ProjectSettingsViewController.swift in Sources */,
+				B3E134581C11E39800CDB9E2 /* AppDelegate.swift in Sources */,
+				B3E134781C11E49400CDB9E2 /* MainViewControllerExtensions.swift in Sources */,
+				B3E1345B1C11E39800CDB9E2 /* PhraseApplication.xcdatamodeld in Sources */,
+				B3E1347E1C11E54400CDB9E2 /* CLIService.swift in Sources */,
+				B3E1347B1C11E4EF00CDB9E2 /* Project.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3E1345E1C11E39800CDB9E2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3E1345F1C11E39800CDB9E2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3E134621C11E39800CDB9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3E134631C11E39800CDB9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B3E134651C11E39800CDB9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhraseApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dynport.PhraseApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3E134661C11E39800CDB9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PhraseApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.dynport.PhraseApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3E1344F1C11E39800CDB9E2 /* Build configuration list for PBXProject "PhraseApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E134621C11E39800CDB9E2 /* Debug */,
+				B3E134631C11E39800CDB9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E134641C11E39800CDB9E2 /* Build configuration list for PBXNativeTarget "PhraseApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E134651C11E39800CDB9E2 /* Debug */,
+				B3E134661C11E39800CDB9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3E134591C11E39800CDB9E2 /* PhraseApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3E1345A1C11E39800CDB9E2 /* PhraseApplication.xcdatamodel */,
+			);
+			currentVersion = B3E1345A1C11E39800CDB9E2 /* PhraseApplication.xcdatamodel */;
+			path = PhraseApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3E1344C1C11E39800CDB9E2 /* Project object */;
+}
