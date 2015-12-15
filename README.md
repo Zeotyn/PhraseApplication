@@ -8,3 +8,4 @@ GUI to use the PhraseApp
 * Open the application 
 * Add the project and the root path of the project
 * Select the project and press the pull/push button
+[phrase app cli](https://phraseapp.com/en/cli)
